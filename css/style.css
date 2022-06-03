@@ -141,10 +141,15 @@ a:hover span {
 .saCarousel__article p {
   /* margin-bottom: 20px; */
 }
+.saCarousel__article ul {
+  /* border: solid 1px orange; */
+  margin-bottom: 20px;
+}
 
 .saCarousel__article li {
+  /* border: solid 1px rgb(111, 0, 255); */
   list-style: none;
-  padding: 20px 5px 10px 0;
+  padding: 20px 5px 10px 0px;
   font-size: 20px;
 }
 
@@ -161,10 +166,6 @@ a:hover span {
   margin-right: 10px;
 }
 
-.saCarousel__content button {
-  margin-top: 20px;
-  transition: all;
-}
 .saCarousel__right {
   /* border: solid 1px red; */
 
@@ -223,4 +224,59 @@ a:hover span {
 
 .services__item:hover {
   transform: translateY(-20px);
+}
+
+.aboutUs {
+  background-image: url(../img/bg15.png);
+  background-size: 100%;
+  background-position: center right;
+  background-repeat: no-repeat;
+  padding-bottom: 85px;
+  padding-top: 115px;
+}
+
+.aboutUs__container {
+  max-width: 1199px;
+  margin: auto;
+}
+
+.aboutUs__content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.aboutUs__left {
+  width: 60%;
+  position: absolute;
+  left: -17%;
+}
+
+.aboutUs__left img {
+  width: 100%;
+  border-radius: 0 100px 100px 0;
+}
+
+.aboutUs__right {
+  width: 50%;
+}
+
+.aboutUs__right p {
+  margin-bottom: 15px;
+}
+
+.aboutUs__right ul {
+  margin-bottom: 30px;
+}
+
+.aboutUs__right li {
+  list-style: none;
+}
+
+.aboutUs__right i {
+  font-size: 24px;
+  color: #f55f8d;
+  margin-right: 10px;
+  vertical-align: middle;
 }
