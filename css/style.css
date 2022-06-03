@@ -424,6 +424,7 @@ a:hover span {
   background-size: cover;
   background-position: top center;
   text-align: center;
+  padding-top: 115px;
 }
 
 .portfolio__content {
@@ -538,4 +539,73 @@ a:hover span {
 .portfolio__item6 {
   grid-column: 3/4;
   grid-row: 2/4;
+}
+
+.plan {
+  background-image: url(../img/bg16.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+  padding-top: 115px;
+}
+.plan__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+  gap: 30px;
+}
+.plan__item {
+  padding: 35px 60px;
+  border: 3px solid transparent;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 1px 0 50px rgb(0, 0, 0, 0.1);
+  border-image: 100 round;
+  transition: all 0.5s;
+}
+.plan__item:hover {
+  border-image: url(../img/br.png) 1 round;
+}
+.plan__item img {
+  width: 125px;
+}
+.plan__item h3 {
+  font-weight: 700;
+  color: #262626;
+  font-size: 2rem;
+}
+.plan__item li,
+.plan__item p {
+  font-size: 18px;
+  color: #262626;
+  font-weight: 600;
+}
+.plan__item li {
+  font-weight: 400;
+  list-style: none;
+}
+.plan__item span {
+  color: #f8ae56;
+  font-size: 50px;
+  font-weight: 800;
+}
+.plan__item ul {
+  text-align: left;
+  padding: 15px 0;
+  border-top: 1px solid #e1e1f0;
+}
+.plan__item li {
+  padding: 5px 0;
+}
+.plan__item i {
+  font-size: 12px;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  background-color: #feeff3;
+  color: #f55f8d;
+  border-radius: 100%;
+  margin-right: 15px;
 }
