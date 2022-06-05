@@ -47,14 +47,14 @@ header {
   font-size: 15px;
 }
 
-a span {
+.text__content a span {
   display: inline-block;
   transition: all 0.5s;
 }
-a:hover {
+.text__content a:hover {
   color: #f55f8d;
 }
-a:hover span {
+.text__content a:hover span {
   animation: upToDown 0.3s;
 }
 
@@ -608,4 +608,31 @@ a:hover span {
   color: #f55f8d;
   border-radius: 100%;
   margin-right: 15px;
+}
+
+.footer__copyright a:hover {
+  background: #f55f8d;
+}
+
+.backToTop {
+  width: 50px;
+  height: 50px;
+  background: #f55f8d;
+  border-radius: 8px;
+  line-height: 50px;
+  text-align: center;
+  display: block;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  color: #fff;
+  transition: all 0.2s;
+  box-shadow: -4px 4px 24px -10px #f55f8d;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
 }
